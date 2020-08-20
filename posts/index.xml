@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Fullstack Developer</title>
-    <link>https://guillem-gelabertas.github.io/posts/</link>
+    <link>https://guillem-gelabert.github.io/posts/</link>
     <description>Recent content in Posts on Fullstack Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Aug 2020 21:37:47 +0200</lastBuildDate>
     
-	<atom:link href="https://guillem-gelabertas.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://guillem-gelabert.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>X-XSS-Protection a security header gone wrong</title>
-      <link>https://guillem-gelabertas.github.io/posts/x-xss-protection/</link>
+      <link>https://guillem-gelabert.github.io/posts/x-xss-protection/</link>
       <pubDate>Thu, 20 Aug 2020 21:37:47 +0200</pubDate>
       
-      <guid>https://guillem-gelabertas.github.io/posts/x-xss-protection/</guid>
+      <guid>https://guillem-gelabert.github.io/posts/x-xss-protection/</guid>
       <description>In 2010 Chrome shipped a new feature, XSS Auditor, that would prevent unsafe parts of the website to be rendered. Together with XSS Auditor a new HTTP Header was introduced, with which its behaviour could be controlled.</description>
     </item>
     
