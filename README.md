@@ -1,1 +1,0 @@
-# guillem-gelabert.github.io
