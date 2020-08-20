@@ -21,7 +21,7 @@
 <meta name="twitter:title" content="Guillem Gelabert"/>
 <meta name="twitter:description" content="Fullstack Developer"/>
 
-</head><body><div class="sidebar animated">
+</head><body><div class="sidebar">
     <div class="logo-title">
       <div class="title">
         <img src="images/profile.jpg" alt="profile picture">
@@ -60,7 +60,7 @@
       </div>
     </div>
 </div><div class="main">
-            <div class="page-top animated">
+            <div class="page-top">
     <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -88,12 +88,15 @@
                 <div class="content">
   
   
-  <div class="post animated">
+  <div class="post">
     <div class="post-title">
-      <h3><a href="/posts/my-first-post/">My First Post</a>
+      <h3><a href="/posts/x-xss-protection/">X-XSS-Protection a security header gone wrong</a>
       </h3>
     </div>
-    <div class="post-content"><div class="p_part"><p>This is a test post</p></div>
+    <div class="post-content"><div class="p_part"><p>In 2010 Chrome shipped a new feature, XSS Auditor, that would prevent unsafe parts of the website to be rendered. Together with XSS Auditor a new HTTP Header was introduced, with which its behaviour could be controlled. It provided the following options:
+ 0: Disabled 1: Prevent unsafe parts from rendering 1;mode-block: Prevent whole page from rendering 1;report=&lt;reporting-URI&gt;: Which blocks rendering and reports the abuse  XSS Auditor worked mainly by checking if any pieces of code were both present in the request and its subsequent response, in a so called reflection attack. This happens, for example, if an attacker is able to send some content that will be server side rendered as is, that is to say unsanitized.
+Unfortunately, this feature led to a series of exploits. Some allowed attackers to block legit sources, potentially preventing the execution of security-critical scripts (e.g. validation scripts). Others extracted information by trial and error, and detecting if XSS Auditor was being triggered.
+It has now been removed from most modern browsers in favour of a Content Sercurity Policy, that&rsquo;s why X-XSS-Protection should be set to 0.</p></div>
   
   <div class="p_part"><p></p></div></div>
     <div class="post-footer">

@@ -6,18 +6,21 @@
     <description>Recent content on Guillem Gelabert</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2020 14:07:49 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 21:37:47 +0200</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
-      <link>/posts/my-first-post/</link>
-      <pubDate>Thu, 20 Aug 2020 14:07:49 +0200</pubDate>
+      <title>X-XSS-Protection a security header gone wrong</title>
+      <link>/posts/x-xss-protection/</link>
+      <pubDate>Thu, 20 Aug 2020 21:37:47 +0200</pubDate>
       
-      <guid>/posts/my-first-post/</guid>
-      <description>This is a test post</description>
+      <guid>/posts/x-xss-protection/</guid>
+      <description>In 2010 Chrome shipped a new feature, XSS Auditor, that would prevent unsafe parts of the website to be rendered. Together with XSS Auditor a new HTTP Header was introduced, with which its behaviour could be controlled. It provided the following options:
+ 0: Disabled 1: Prevent unsafe parts from rendering 1;mode-block: Prevent whole page from rendering 1;report=&amp;lt;reporting-URI&amp;gt;: Which blocks rendering and reports the abuse  XSS Auditor worked mainly by checking if any pieces of code were both present in the request and its subsequent response, in a so called reflection attack. This happens, for example, if an attacker is able to send some content that will be server side rendered as is, that is to say unsanitized.
+Unfortunately, this feature led to a series of exploits. Some allowed attackers to block legit sources, potentially preventing the execution of security-critical scripts (e.g. validation scripts). Others extracted information by trial and error, and detecting if XSS Auditor was being triggered.
+It has now been removed from most modern browsers in favour of a Content Sercurity Policy, that&amp;rsquo;s why X-XSS-Protection should be set to 0.</description>
     </item>
     
     <item>
