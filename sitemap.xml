@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>https://guillem-gelabert.github.io/</loc>
     <lastmod>2020-08-20T21:37:47+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>https://guillem-gelabert.github.io/posts/</loc>
     <lastmod>2020-08-20T21:37:47+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/x-xss-protection/</loc>
+    <loc>https://guillem-gelabert.github.io/posts/x-xss-protection/</loc>
     <lastmod>2020-08-20T21:37:47+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://guillem-gelabert.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://guillem-gelabert.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://guillem-gelabert.github.io/tags/</loc>
   </url>
   
 </urlset>
