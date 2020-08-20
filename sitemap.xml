@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>guillem-gelabert.github.io/posts/my-first-post/</loc>
+    <loc>/</loc>
     <lastmod>2020-08-20T14:07:49+02:00</lastmod>
   </url>
   
   <url>
-    <loc>guillem-gelabert.github.io/</loc>
+    <loc>/posts/my-first-post/</loc>
     <lastmod>2020-08-20T14:07:49+02:00</lastmod>
   </url>
   
   <url>
-    <loc>guillem-gelabert.github.io/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2020-08-20T14:07:49+02:00</lastmod>
   </url>
   
   <url>
-    <loc>guillem-gelabert.github.io/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>guillem-gelabert.github.io/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
