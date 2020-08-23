@@ -48,12 +48,21 @@
     </item>
     
     <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>https://guillem-gelabert.github.io/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://guillem-gelabert.github.io/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content.</description>
+      <description>💁🏻‍♂️ I&amp;rsquo;m Guillem
+💻 Fullstack Developer
+🍍 From Mallorca
+🍫 Based in Zürich
+👷🏼‍♂️ I build stuff in:
+🕸 Typescript
+🏃🏽‍♂️ Go
+🥰 I admire:
+🎓 Ben Eater
+👨🏻 Frank Zappa</description>
     </item>
     
   </channel>
