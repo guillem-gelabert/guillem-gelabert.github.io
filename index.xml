@@ -6,10 +6,19 @@
     <description>Recent content on Fullstack Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2020 13:21:59 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 09:19:26 +0200</lastBuildDate>
     
 	<atom:link href="https://guillem-gelabert.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Referrer Policy</title>
+      <link>https://guillem-gelabert.github.io/posts/referrer-policy/</link>
+      <pubDate>Mon, 24 Aug 2020 09:19:26 +0200</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/referrer-policy/</guid>
+      <description>Referrer-Policy: Whatever I&amp;rsquo;ve been doing is non of your business The infamously misspelled Referer Header contains the address where the request originated, it is there for analytics, referrals etc. But as URLs can and do encode all sorts of information as Search Params or Path Variables it can open the door to tracking and leaking.</description>
+    </item>
     
     <item>
       <title>X-Content-Type-Options: Don&#39;t sniff the mimetype</title>

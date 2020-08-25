@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Guillem Gelabert Sunyer | Posts </title>
+    <title> Guillem Gelabert Sunyer | Referrer Policy </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="Fullstack Developer">
     
@@ -10,14 +10,13 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://guillem-gelabert.github.ioapple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://guillem-gelabert.github.iofavicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://guillem-gelabert.github.iofavicon-16x16.png">
-    <link rel="canonical" href="https://guillem-gelabert.github.io/posts/">
-    <link rel="alternate" type="application/rss+xml" href="https://guillem-gelabert.github.io/posts/index.xml" title="Fullstack Developer" />
+    <link rel="canonical" href="https://guillem-gelabert.github.io/posts/referrer-policy/">
     
     
     <script type="text/javascript" src="https://guillem-gelabert.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="Fullstack Developer"/>
+<meta name="twitter:title" content="Referrer Policy"/>
+<meta name="twitter:description" content="Referrer-Policy: Whatever I&rsquo;ve been doing is non of your business The infamously misspelled Referer Header contains the address where the request originated, it is there for analytics, referrals etc. But as URLs can and do encode all sorts of information as Search Params or Path Variables it can open the door to tracking and leaking."/>
 
 </head><body><div class="sidebar">
     <div class="logo-title">
@@ -84,54 +83,99 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-<div class="archive">
-   
-    <ul class="list-with-title">
-           
-      <div class="listing-title">2020</div>
-      
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/referrer-policy/" title="Referrer Policy">Referrer Policy</a>
-              <div class="post-time"><span class="date">Aug 24</span></div>
-            </div>
-          </div>
-    </ul>
+<div class="post">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Referrer Policy
+        </h3>
+        
+        </div>
+
+    <h2 id="referrer-policy-whatever-ive-been-doing-is-non-of-your-business">Referrer-Policy: Whatever I&rsquo;ve been doing is non of your business</h2>
+<p>The infamously misspelled Referer Header contains the address where the request originated, it is there for analytics, referrals etc. But as URLs can and do encode all sorts of information as Search Params or Path Variables it can open the door to tracking and leaking.  The Referrer-Policy header allows you to limit the content of that header.</p>
+<p>You can send the whole URL, send only the origin (scheme/protocol plus domain) or completely obscure the Referer. And you can do it depending on the the security (is it at least equally secure?) and origin of the target (same origin or cross origin):</p>
+<table>
+<thead>
+<tr>
+<th align="left">Header value</th>
+<th align="center">Same Origin</th>
+<th align="center">Cross Origin</th>
+<th align="center">Equally Secure</th>
+<th align="right">Less Secure</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>no-referrer</code></td>
+<td align="center">nothing</td>
+<td align="center">nothing</td>
+<td align="center">nothing</td>
+<td align="right">nothing</td>
+</tr>
+<tr>
+<td align="left"><code>origin</code></td>
+<td align="center">only origin</td>
+<td align="center">only origin</td>
+<td align="center">only origin</td>
+<td align="right">only origin</td>
+</tr>
+<tr>
+<td align="left"><code>same-origin</code></td>
+<td align="center">only origin</td>
+<td align="center">nothing</td>
+<td align="center">-</td>
+<td align="right">-</td>
+</tr>
+<tr>
+<td align="left"><code>origin-when-cross-origin</code></td>
+<td align="center">whole URL</td>
+<td align="center">only origin</td>
+<td align="center">-</td>
+<td align="right">-</td>
+</tr>
+<tr>
+<td align="left"><code>strict-origin</code></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">only origin</td>
+<td align="right">nothing</td>
+</tr>
+<tr>
+<td align="left"><code>no-referrer-when-downgrade</code></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">whole URL</td>
+<td align="right">nothing</td>
+</tr>
+<tr>
+<td align="left"><code>strict-origin-when-cross-origin</code></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">whole URL</td>
+<td align="right">only origin</td>
+</tr>
+<tr>
+<td align="left"><code>unsafe-url</code></td>
+<td align="center">whole URL</td>
+<td align="center">whole URL</td>
+<td align="center">whole URL</td>
+<td align="right">whole URL</td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+      </div>
+    </div>
+
     
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-content-type-options/" title="X-Content-Type-Options: Don&#39;t sniff the mimetype">X-Content-Type-Options: Don&#39;t sniff the mimetype</a>
-              <div class="post-time"><span class="date">Aug 23</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/strict-transport-security/" title="Strict Transport Security: HTTPS and HTTPS only">Strict Transport Security: HTTPS and HTTPS only</a>
-              <div class="post-time"><span class="date">Aug 22</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/content-security-policy/" title="Content-Security-Policy: you&#39;re not on the guest list">Content-Security-Policy: you&#39;re not on the guest list</a>
-              <div class="post-time"><span class="date">Aug 21</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-xss-protection/" title="X-XSS-Protection: a security header gone wrong">X-XSS-Protection: a security header gone wrong</a>
-              <div class="post-time"><span class="date">Aug 20</span></div>
-            </div>
-          </div>
-    </ul>
-    
-    
-  </div>
+</div>
+
 
                 </div>
             </div>
