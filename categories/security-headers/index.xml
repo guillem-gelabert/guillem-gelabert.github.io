@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security Headers on Fullstack Developer</title>
+    <link>https://guillem-gelabert.github.io/categories/security-headers/</link>
+    <description>Recent content in Security Headers on Fullstack Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Aug 2020 09:19:26 +0200</lastBuildDate>
+    
+	<atom:link href="https://guillem-gelabert.github.io/categories/security-headers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Referrer-Policy: Whatever I&#39;ve been doing is non of your business</title>
+      <link>https://guillem-gelabert.github.io/posts/referrer-policy/</link>
+      <pubDate>Mon, 24 Aug 2020 09:19:26 +0200</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/referrer-policy/</guid>
+      <description>The infamously misspelled Referer Header contains the address where the request originated, it is there for analytics, referrals etc. But as URLs can and do encode all sorts of information as Search Params or Path Variables it can open the door to tracking and leaking.</description>
+    </item>
+    
+    <item>
+      <title>X-Content-Type-Options: Don&#39;t sniff the mimetype</title>
+      <link>https://guillem-gelabert.github.io/posts/x-content-type-options/</link>
+      <pubDate>Sun, 23 Aug 2020 13:21:59 +0200</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/x-content-type-options/</guid>
+      <description>With Content-Security-Policy you can avoid foreign scripts from being executed, but you can still inject malicious code as plaintext and let the browser figure out that it should be handled like code, defeating the whole purpose of CSP.</description>
+    </item>
+    
+    <item>
+      <title>Strict Transport Security: HTTPS and HTTPS only</title>
+      <link>https://guillem-gelabert.github.io/posts/strict-transport-security/</link>
+      <pubDate>Sat, 22 Aug 2020 08:14:15 +0200</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/strict-transport-security/</guid>
+      <description>How many times did we, in the early days of internet, type http://www? Thanks to the browser&amp;rsquo;s integrated search and autocomplete this isn&amp;rsquo;t the case anymore, most of us just write my-bank.</description>
+    </item>
+    
+    <item>
+      <title>Content-Security-Policy: you&#39;re not on the guest list</title>
+      <link>https://guillem-gelabert.github.io/posts/content-security-policy/</link>
+      <pubDate>Fri, 21 Aug 2020 16:29:46 +0200</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/content-security-policy/</guid>
+      <description>Content-Security-Policy works like a guest list for resources, or more like a bouncer with highly specific acceptance criteria. It allows for very granular control on which origins should be allowed and for which cases: specifically for iframes, forms tags, images sources, fonts, XHR or WebSockets connections and plenty more (there are 14 directives).</description>
+    </item>
+    
+    <item>
+      <title>X-XSS-Protection: a security header gone wrong</title>
+      <link>https://guillem-gelabert.github.io/posts/x-xss-protection/</link>
+      <pubDate>Thu, 20 Aug 2020 21:37:47 +0200</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/x-xss-protection/</guid>
+      <description>In 2010 Chrome shipped a new feature, XSS Auditor, that would prevent unsafe parts of the website to be rendered. Together with XSS Auditor a new HTTP Header was introduced, with which its behaviour could be controlled.</description>
+    </item>
+    
+  </channel>
+</rss>
