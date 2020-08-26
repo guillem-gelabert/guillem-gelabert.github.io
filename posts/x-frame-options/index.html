@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Guillem Gelabert Sunyer | Posts </title>
+    <title> Guillem Gelabert Sunyer | X Frame Options: iframes are so 2005 </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="Fullstack Developer">
     
@@ -10,14 +10,13 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://guillem-gelabert.github.ioapple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://guillem-gelabert.github.iofavicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://guillem-gelabert.github.iofavicon-16x16.png">
-    <link rel="canonical" href="https://guillem-gelabert.github.io/posts/">
-    <link rel="alternate" type="application/rss+xml" href="https://guillem-gelabert.github.io/posts/index.xml" title="Fullstack Developer" />
+    <link rel="canonical" href="https://guillem-gelabert.github.io/posts/x-frame-options/">
     
     
     <script type="text/javascript" src="https://guillem-gelabert.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="Fullstack Developer"/>
+<meta name="twitter:title" content="X Frame Options: iframes are so 2005"/>
+<meta name="twitter:description" content="Back in the day iframes were used everywhere —keeping the URL the same while navigating, embedding Adobe Reader, even as a layouting tool 🤦🏽‍♀️— but they can circumvent some CSP policies, are an accessibility nightmare and most notably they are the main medium of clickjacking attacks."/>
 
 </head><body><div class="sidebar">
     <div class="logo-title">
@@ -87,62 +86,39 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-<div class="archive">
-   
-    <ul class="list-with-title">
-           
-      <div class="listing-title">2020</div>
-      
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-frame-options/" title="X Frame Options: iframes are so 2005">X Frame Options: iframes are so 2005</a>
-              <div class="post-time"><span class="date">Aug 25</span></div>
-            </div>
-          </div>
-    </ul>
+<div class="post">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>X Frame Options: iframes are so 2005
+        </h3>
+        
+        </div>
+
+    <p>Back in the day <em>iframes</em> were used everywhere —keeping the URL the same while navigating, embedding Adobe Reader, even as a layouting tool 🤦🏽‍♀️— but they can circumvent some CSP policies, are an accessibility nightmare and most notably they are the main medium of <em>clickjacking</em> attacks. That&rsquo;s why they&rsquo;ve ve fallen from grace and because there are better alternative for almost every use case.</p>
+<blockquote>
+<p><strong>Clickjacking</strong> works by placing a legitimate website inside of an <em>iframe</em> and overlaying a transparent element with malicious intentions. Users think they are interacting with with the content of the <em>iframe</em> but their are actually clicking somewhere else.</p>
+</blockquote>
+<p>Okay, the <a href="/posts/content-security-policy/">Content-Security-Policy header</a> can block <em>iframes</em> with its <code>frame-ancestors</code> directive, but X-Frame-Options has a <a href="https://caniuse.com/#feat=x-frame-options">broader support</a>.</p>
+<p>It accepts the following directives:</p>
+<ul>
+<li><code>DENY</code>: your site cannot be shown in an iframe.</li>
+<li><code>SAMEORIGIN</code>: your site can only be shown in iframes with the same origin.</li>
+<li><code>ALLOW-FROM</code>: allows you to specify an authorized target.</li>
+</ul>
+<p><code>SAMEORIGIN</code> and <code>ALLOW-FROM</code> are not reliable as they depend on browser implementation, so the best is to use both headers: CSP with <code>frame-ancestors</code> and <code>X-Frame-Options: DENY</code> to completely disable <em>iframes</em> for legacy browsers.</p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+      </div>
+    </div>
+
     
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/referrer-policy/" title="Referrer-Policy: Whatever I&#39;ve been doing is non of your business">Referrer-Policy: Whatever I&#39;ve been doing is non of your business</a>
-              <div class="post-time"><span class="date">Aug 24</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-content-type-options/" title="X-Content-Type-Options: Don&#39;t sniff the mimetype">X-Content-Type-Options: Don&#39;t sniff the mimetype</a>
-              <div class="post-time"><span class="date">Aug 23</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/strict-transport-security/" title="Strict Transport Security: HTTPS and HTTPS only">Strict Transport Security: HTTPS and HTTPS only</a>
-              <div class="post-time"><span class="date">Aug 22</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/content-security-policy/" title="Content-Security-Policy: you&#39;re not on the guest list">Content-Security-Policy: you&#39;re not on the guest list</a>
-              <div class="post-time"><span class="date">Aug 21</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-xss-protection/" title="X-XSS-Protection: a security header gone wrong">X-XSS-Protection: a security header gone wrong</a>
-              <div class="post-time"><span class="date">Aug 20</span></div>
-            </div>
-          </div>
-    </ul>
-    
-    
-  </div>
+</div>
+
 
                 </div>
             </div>

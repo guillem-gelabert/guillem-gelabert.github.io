@@ -6,10 +6,19 @@
     <description>Recent content on Fullstack Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2020 09:19:26 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2020 08:45:52 +0200</lastBuildDate>
     
 	<atom:link href="https://guillem-gelabert.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>X Frame Options: iframes are so 2005</title>
+      <link>https://guillem-gelabert.github.io/posts/x-frame-options/</link>
+      <pubDate>Tue, 25 Aug 2020 08:45:52 +0200</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/x-frame-options/</guid>
+      <description>Back in the day iframes were used everywhere —keeping the URL the same while navigating, embedding Adobe Reader, even as a layouting tool 🤦🏽‍♀️— but they can circumvent some CSP policies, are an accessibility nightmare and most notably they are the main medium of clickjacking attacks.</description>
+    </item>
     
     <item>
       <title>Referrer-Policy: Whatever I&#39;ve been doing is non of your business</title>
