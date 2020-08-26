@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>Strict Transport Security: HTTPS and HTTPS only</title>
+      <title>Strict-Transport-Security: HTTPS and HTTPS only</title>
       <link>https://guillem-gelabert.github.io/posts/strict-transport-security/</link>
       <pubDate>Sat, 22 Aug 2020 08:14:15 +0200</pubDate>
       

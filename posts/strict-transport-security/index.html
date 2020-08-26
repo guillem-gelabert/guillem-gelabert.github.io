@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Guillem Gelabert Sunyer | Strict Transport Security: HTTPS and HTTPS only </title>
+    <title> Guillem Gelabert Sunyer | Strict-Transport-Security: HTTPS and HTTPS only </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="Fullstack Developer">
     
@@ -15,7 +15,7 @@
     
     <script type="text/javascript" src="https://guillem-gelabert.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Strict Transport Security: HTTPS and HTTPS only"/>
+<meta name="twitter:title" content="Strict-Transport-Security: HTTPS and HTTPS only"/>
 <meta name="twitter:description" content="How many times did we, in the early days of internet, type http://www? Thanks to the browser&rsquo;s integrated search and autocomplete this isn&rsquo;t the case anymore, most of us just write my-bank."/>
 
 </head><body><div class="sidebar">
@@ -90,7 +90,7 @@
     <div class="post-content">
 
       <div class="post-title">
-        <h3>Strict Transport Security: HTTPS and HTTPS only
+        <h3>Strict-Transport-Security: HTTPS and HTTPS only
         </h3>
         
         </div>
@@ -98,7 +98,7 @@
     <p>How many times did we, in the early days of internet, type <code>http://www</code>? Thanks to the browser&rsquo;s integrated search and autocomplete this isn&rsquo;t the case anymore, most of us just write <code>my-bank.com</code> and expect the browser to do the rest. This can have security implications which Strict Transport Security (HSTS) tries to solve.</p>
 <p>The problem is that the browser prepends by default the insecure <code>http://</code> scheme even if the website we&rsquo;re trying to visit supports HTTPS. Most probably the website will redirect all traffic to their secure version, but a man-in-the-middle could tamper that redirection to show send you to a malicious page.</p>
 <p>The HSTS header tells the browser to remember the protocol and to only connect to the secure version. Note that the first time you visit a website you&rsquo;ll still be vulnerable to this type of attack, as the url is not yet in the browsers HSTS registry, but as long as you&rsquo;ve visited that website before, you&rsquo;ll be safe.</p>
-<p>To protect that first contact you can use the <code>preload</code> flag, instructing the browser to check if your  domain is registered to Google&rsquo;s HTSTS preload service.</p>
+<p>To protect that first contact you can use the <code>preload</code> flag, instructing the browser to check if your domain is registered to Google&rsquo;s HTSTS preload service.</p>
 
     </div>
     <div class="post-footer">

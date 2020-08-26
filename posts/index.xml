@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>X Frame Options: iframes are so 2005</title>
+      <title>X-Frame-Options: iframes are so 2005</title>
       <link>https://guillem-gelabert.github.io/posts/x-frame-options/</link>
       <pubDate>Tue, 25 Aug 2020 08:45:52 +0200</pubDate>
       
@@ -39,7 +39,7 @@
     </item>
     
     <item>
-      <title>Strict Transport Security: HTTPS and HTTPS only</title>
+      <title>Strict-Transport-Security: HTTPS and HTTPS only</title>
       <link>https://guillem-gelabert.github.io/posts/strict-transport-security/</link>
       <pubDate>Sat, 22 Aug 2020 08:14:15 +0200</pubDate>
       
