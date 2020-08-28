@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Fullstack Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2020 08:45:52 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2020 09:47:03 +0200</lastBuildDate>
     
 	<atom:link href="https://guillem-gelabert.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>X-Powered-By: the price of vanity (22 bytes)</title>
+      <link>https://guillem-gelabert.github.io/posts/x-powered-by/</link>
+      <pubDate>Fri, 28 Aug 2020 09:47:03 +0200</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/x-powered-by/</guid>
+      <description>Some web frameworks, most notably Express.js, automatically add the X-Powered-By header. The goal is probably marketing —although we could call it recognition to the team that developed an a free and open source solution.</description>
+    </item>
     
     <item>
       <title>X-Frame-Options: iframes are so 2005</title>
