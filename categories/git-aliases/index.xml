@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git Aliases on Fullstack Developer</title>
+    <link>https://guillem-gelabert.github.io/categories/git-aliases/</link>
+    <description>Recent content in Git Aliases on Fullstack Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Aug 2020 09:32:21 +0200</lastBuildDate>
+    
+	<atom:link href="https://guillem-gelabert.github.io/categories/git-aliases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>You need these git aliases</title>
+      <link>https://guillem-gelabert.github.io/posts/you-need-git-aliases/</link>
+      <pubDate>Sun, 30 Aug 2020 09:32:21 +0200</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/you-need-git-aliases/</guid>
+      <description>This entry is part of the Useful Git Aliases series. Optimally we would always work in a purely linear way, after carefully planning all the code changes required to implement a certain feature.</description>
+    </item>
+    
+  </channel>
+</rss>

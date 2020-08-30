@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Guillem Gelabert Sunyer | Posts </title>
+    <title> Guillem Gelabert Sunyer | You need these git aliases </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="Fullstack Developer">
     
@@ -10,14 +10,13 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://guillem-gelabert.github.ioapple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://guillem-gelabert.github.iofavicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://guillem-gelabert.github.iofavicon-16x16.png">
-    <link rel="canonical" href="https://guillem-gelabert.github.io/posts/">
-    <link rel="alternate" type="application/rss+xml" href="https://guillem-gelabert.github.io/posts/index.xml" title="Fullstack Developer" />
+    <link rel="canonical" href="https://guillem-gelabert.github.io/posts/you-need-git-aliases/">
     
     
     <script type="text/javascript" src="https://guillem-gelabert.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="Fullstack Developer"/>
+<meta name="twitter:title" content="You need these git aliases"/>
+<meta name="twitter:description" content="This entry is part of the Useful Git Aliases series. Optimally we would always work in a purely linear way, after carefully planning all the code changes required to implement a certain feature."/>
 
 </head><body><div class="sidebar">
     <div class="logo-title">
@@ -87,78 +86,52 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-<div class="archive">
-   
-    <ul class="list-with-title">
-           
-      <div class="listing-title">2020</div>
-      
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/you-need-git-aliases/" title="You need these git aliases">You need these git aliases</a>
-              <div class="post-time"><span class="date">Aug 30</span></div>
-            </div>
-          </div>
-    </ul>
+<div class="post">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>You need these git aliases
+        </h3>
+        
+        </div>
+
+    <h5 id="this-entry-is-part-of-the-useful-git-aliasescategoriesgit-aliases-series">This entry is part of the <a href="/categories/git-aliases/">Useful Git Aliases</a> series.</h5>
+<p>Optimally we would always work in a purely linear way, after carefully planning all the code changes required to implement a certain feature. This works best if we are doing very small changes, modifying only a couple of characters or lines, if we are well acquainted with the codebase and the stack being used, or if we&rsquo;re undertaking a trivial task that we can do almost mechanically. In this case we&rsquo;re not going to put a lot of effort in keeping our git history clean, as the implementation itself will be clean.</p>
+<p>But oftentimes we find ourselves working on unfamiliar code, with new tools or environments that we don&rsquo;t yet master or simply working on a more explorative part of development. Whatever effort we put into planning, slicing and grooming a feature, there will be always place for entropy. It is in those cases when it can get messy.</p>
+<pre><code>a4f05c3 tying lerna publish again
+4702697 oh god...
+cf87a8a oh god...
+6270624 fixing those bad yamls
+d747eef fixing those yamls -\_-
+6944908 fixing those yamls again again
+4702697 fixing those yamls again
+5840248 fixing those yamls
+255f280 testing global instalation of lerna on merge
+</code></pre><p>As unavoidable as this kind of git history is, we don&rsquo;t have to show this ugliness to owr reviewers. Not only to give the appearance of an organized developer but also to make Code Reviews easier. Pull Requests should be easy to review, and to do so it should be taken into account that:</p>
+<ul>
+<li>Changes in a commit should be easy to express in a sentence (git message length?)</li>
+<li>There shouldn&rsquo;t be superfluous commits</li>
+<li>Implementation, refactoring, style changes should never be in the same commit</li>
+<li>Everything that belongs together should be in the same commit</li>
+</ul>
+<blockquote>
+<p><a href="https://github.com/RefactoringCombos/ArlosCommitNotation">Arlo&rsquo;s commit notation</a> helps separate more implementation, refactoring, environment commits by using prefixes like F and B for feature and bugfix and r, e, c for refactoring, environment, comments commits. This also guides the reviewer where the more sensible changes happen.</p>
+</blockquote>
+<p>In this series I want to share some of the git aliases that I regularly use to clean after my mess and try to give my reviewers an easier time.</p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/git-aliases/">Git Aliases</a></span>
+
+        
+      </div>
+    </div>
+
     
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-powered-by/" title="X-Powered-By: the price of vanity (22 bytes)">X-Powered-By: the price of vanity (22 bytes)</a>
-              <div class="post-time"><span class="date">Aug 28</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-frame-options/" title="X-Frame-Options: iframes are so 2005">X-Frame-Options: iframes are so 2005</a>
-              <div class="post-time"><span class="date">Aug 25</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/referrer-policy/" title="Referrer-Policy: Whatever I&#39;ve been doing is non of your business">Referrer-Policy: Whatever I&#39;ve been doing is non of your business</a>
-              <div class="post-time"><span class="date">Aug 24</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-content-type-options/" title="X-Content-Type-Options: Don&#39;t sniff the mimetype">X-Content-Type-Options: Don&#39;t sniff the mimetype</a>
-              <div class="post-time"><span class="date">Aug 23</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/strict-transport-security/" title="Strict-Transport-Security: HTTPS and HTTPS only">Strict-Transport-Security: HTTPS and HTTPS only</a>
-              <div class="post-time"><span class="date">Aug 22</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/content-security-policy/" title="Content-Security-Policy: you&#39;re not on the guest list">Content-Security-Policy: you&#39;re not on the guest list</a>
-              <div class="post-time"><span class="date">Aug 21</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-xss-protection/" title="X-XSS-Protection: a security header gone wrong">X-XSS-Protection: a security header gone wrong</a>
-              <div class="post-time"><span class="date">Aug 20</span></div>
-            </div>
-          </div>
-    </ul>
-    
-    
-  </div>
+</div>
+
 
                 </div>
             </div>
