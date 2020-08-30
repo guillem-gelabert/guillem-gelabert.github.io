@@ -16,7 +16,8 @@
     <script type="text/javascript" src="https://guillem-gelabert.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Content-Security-Policy: you&#39;re not on the guest list"/>
-<meta name="twitter:description" content="Content-Security-Policy works like a guest list for resources, or more like a bouncer with highly specific acceptance criteria. It allows for very granular control on which origins should be allowed and for which cases: specifically for iframes, forms tags, images sources, fonts, XHR or WebSockets connections and plenty more (there are 14 directives)."/>
+<meta name="twitter:description" content="This entry is part of the Security Headers series.
+ Content-Security-Policy works like a guest list for resources, or more like a bouncer with highly specific acceptance criteria. It allows for very granular control on which origins should be allowed and for which cases: specifically for iframes, forms tags, images sources, fonts, XHR or WebSockets connections and plenty more (there are 14 directives)."/>
 
 </head><body><div class="sidebar">
     <div class="logo-title">
@@ -95,7 +96,10 @@
         
         </div>
 
-    <p>Content-Security-Policy works like a guest list for resources, or more like a bouncer with highly specific acceptance criteria. It allows for very granular control on which origins should be allowed and for which cases: specifically for iframes, forms tags, images sources, fonts, XHR or WebSockets connections and plenty more (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy#Directives">there are 14 directives</a>).</p>
+    <blockquote>
+<p>This entry is part of the <a href="/categories/security-headers/">Security Headers</a> series.</p>
+</blockquote>
+<p>Content-Security-Policy works like a guest list for resources, or more like a bouncer with highly specific acceptance criteria. It allows for very granular control on which origins should be allowed and for which cases: specifically for iframes, forms tags, images sources, fonts, XHR or WebSockets connections and plenty more (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy#Directives">there are 14 directives</a>).</p>
 <p>So you can tell the browser to accept Google Fonts, Bootstrap&rsquo;s CDN, and images from your AWS S3 bucket, and nothing more. Many of the directives inherit from <code>default-src</code>, so by setting it you&rsquo;ll be on the safe side.</p>
 <p>Another handy feature is the alternative Content-Security-Policy-Report-Only header, which tells the browser not block anything but to report all abuses (sources not complying with your policies) to a given URI (<code>report-uri</code>). This makes the most sense as a transition between no CSP header at all and the blocking one and can help you refine your final policies.</p>
 

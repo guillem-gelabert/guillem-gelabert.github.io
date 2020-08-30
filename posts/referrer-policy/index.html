@@ -16,7 +16,8 @@
     <script type="text/javascript" src="https://guillem-gelabert.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Referrer-Policy: Whatever I&#39;ve been doing is non of your business"/>
-<meta name="twitter:description" content="The infamously misspelled Referer Header contains the address where the request originated, it is there for analytics, referrals etc. But as URLs can and do encode all sorts of information as Search Params or Path Variables it can open the door to tracking and leaking."/>
+<meta name="twitter:description" content="This entry is part of the Security Headers series.
+ The infamously misspelled Referer Header contains the address where the request originated, it is there for analytics, referrals etc. But as URLs can and do encode all sorts of information as Search Params or Path Variables it can open the door to tracking and leaking."/>
 
 </head><body><div class="sidebar">
     <div class="logo-title">
@@ -95,7 +96,10 @@
         
         </div>
 
-    <p>The infamously misspelled Referer Header contains the address where the request originated, it is there for analytics, referrals etc. But as URLs can and do encode all sorts of information as Search Params or Path Variables it can open the door to tracking and leaking.  The Referrer-Policy header allows you to limit the content of that header.</p>
+    <blockquote>
+<p>This entry is part of the <a href="/categories/security-headers/">Security Headers</a> series.</p>
+</blockquote>
+<p>The infamously misspelled Referer Header contains the address where the request originated, it is there for analytics, referrals etc. But as URLs can and do encode all sorts of information as Search Params or Path Variables it can open the door to tracking and leaking. The Referrer-Policy header allows you to limit the content of that header.</p>
 <p>You can send the whole URL, send only the origin (scheme/protocol plus domain) or completely obscure the Referer. And you can do it depending on the the security (is it at least equally secure?) and origin of the target (same origin or cross origin):</p>
 <table>
 <thead>

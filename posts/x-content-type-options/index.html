@@ -16,7 +16,8 @@
     <script type="text/javascript" src="https://guillem-gelabert.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="X-Content-Type-Options: Don&#39;t sniff the mimetype"/>
-<meta name="twitter:description" content="With Content-Security-Policy you can avoid foreign scripts from being executed, but you can still inject malicious code as plaintext and let the browser figure out that it should be handled like code, defeating the whole purpose of CSP."/>
+<meta name="twitter:description" content="This entry is part of the Security Headers series.
+ With Content-Security-Policy you can avoid foreign scripts from being executed, but you can still inject malicious code as plaintext and let the browser figure out that it should be handled like code, defeating the whole purpose of CSP."/>
 
 </head><body><div class="sidebar">
     <div class="logo-title">
@@ -95,8 +96,11 @@
         
         </div>
 
-    <p>With <a href="/posts/content-security-policy/">Content-Security-Policy</a> you can avoid foreign scripts from being executed, but you can still inject malicious code as plaintext and let the browser figure out that it should be handled like code, defeating the whole purpose of CSP.</p>
-<p>We&rsquo;ve seen that browsers being nice and tolerant, often by making assumptions about the users intentions or the content, had sometimes security implications. One example is the smart address bars that prepends  <code>http://</code>  even if a site supports HTTS, which can be mitigated with the <a href="/posts/strict-transport-security/">HSTS Header</a>. Another case of a browser being too smart is when it tries to inferr the content type of a source to handle it accordingly, that is called mimetype sniffing, and can be prevented by including the header <code>X-Content-Type-Options: nosniff</code>.</p>
+    <blockquote>
+<p>This entry is part of the <a href="/categories/security-headers/">Security Headers</a> series.</p>
+</blockquote>
+<p>With <a href="/posts/content-security-policy/">Content-Security-Policy</a> you can avoid foreign scripts from being executed, but you can still inject malicious code as plaintext and let the browser figure out that it should be handled like code, defeating the whole purpose of CSP.</p>
+<p>We&rsquo;ve seen that browsers being nice and tolerant, often by making assumptions about the users intentions or the content, had sometimes security implications. One example is the smart address bars that prepends <code>http://</code> even if a site supports HTTS, which can be mitigated with the <a href="/posts/strict-transport-security/">HSTS Header</a>. Another case of a browser being too smart is when it tries to inferr the content type of a source to handle it accordingly, that is called mimetype sniffing, and can be prevented by including the header <code>X-Content-Type-Options: nosniff</code>.</p>
 
     </div>
     <div class="post-footer">
