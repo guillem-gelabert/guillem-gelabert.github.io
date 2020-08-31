@@ -6,10 +6,19 @@
     <description>Recent content on Fullstack Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Aug 2020 09:32:21 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2020 10:00:51 +0200</lastBuildDate>
     
 	<atom:link href="https://guillem-gelabert.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Amend: Edit a commit message</title>
+      <link>https://guillem-gelabert.github.io/posts/amend/</link>
+      <pubDate>Mon, 31 Aug 2020 10:00:51 +0200</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/amend/</guid>
+      <description>Sometimes I&amp;rsquo;ll come up with a better description of what I did in my last commit right after I&amp;rsquo;ve committed it. Or maybe I forgot to appropriately prefix it or to append the branch name at the en of it.</description>
+    </item>
     
     <item>
       <title>You need these git aliases</title>
@@ -17,7 +26,7 @@
       <pubDate>Sun, 30 Aug 2020 09:32:21 +0200</pubDate>
       
       <guid>https://guillem-gelabert.github.io/posts/you-need-git-aliases/</guid>
-      <description>This entry is part of the Useful Git Aliases series. Optimally we would always work in a purely linear way, after carefully planning all the code changes required to implement a certain feature.</description>
+      <description>Optimally we would always work in a purely linear way, after carefully planning all the code changes required to implement a certain feature. This works best if we are doing very small changes, modifying only a couple of characters or lines, if we are well acquainted with the codebase and the stack being used, or if we&amp;rsquo;re undertaking a trivial task that we can do almost mechanically.</description>
     </item>
     
     <item>
@@ -26,8 +35,7 @@
       <pubDate>Fri, 28 Aug 2020 09:47:03 +0200</pubDate>
       
       <guid>https://guillem-gelabert.github.io/posts/x-powered-by/</guid>
-      <description>This entry is part of the Security Headers series.
- Some web frameworks, most notably Express.js, automatically add the X-Powered-By header. The goal is probably marketing —although we could call it recognition to the team that developed an a free and open source solution.</description>
+      <description>Some web frameworks, most notably Express.js, automatically add the X-Powered-By header. The goal is probably marketing —although we could call it recognition to the team that developed an a free and open source solution.</description>
     </item>
     
     <item>
@@ -36,8 +44,7 @@
       <pubDate>Tue, 25 Aug 2020 08:45:52 +0200</pubDate>
       
       <guid>https://guillem-gelabert.github.io/posts/x-frame-options/</guid>
-      <description>This entry is part of the Security Headers series.
- Back in the day iframes were used everywhere —keeping the URL the same while navigating, embedding Adobe Reader, even as a layouting tool 🤦🏽‍♀️— but they can circumvent some CSP policies, are an accessibility nightmare and most notably they are the main medium of clickjacking attacks.</description>
+      <description>Back in the day iframes were used everywhere —keeping the URL the same while navigating, embedding Adobe Reader, even as a layouting tool 🤦🏽‍♀️— but they can circumvent some CSP policies, are an accessibility nightmare and most notably they are the main medium of clickjacking attacks.</description>
     </item>
     
     <item>
@@ -46,8 +53,7 @@
       <pubDate>Mon, 24 Aug 2020 09:19:26 +0200</pubDate>
       
       <guid>https://guillem-gelabert.github.io/posts/referrer-policy/</guid>
-      <description>This entry is part of the Security Headers series.
- The infamously misspelled Referer Header contains the address where the request originated, it is there for analytics, referrals etc. But as URLs can and do encode all sorts of information as Search Params or Path Variables it can open the door to tracking and leaking.</description>
+      <description>The infamously misspelled Referer Header contains the address where the request originated, it is there for analytics, referrals etc. But as URLs can and do encode all sorts of information as Search Params or Path Variables it can open the door to tracking and leaking.</description>
     </item>
     
     <item>
@@ -56,8 +62,7 @@
       <pubDate>Sun, 23 Aug 2020 13:21:59 +0200</pubDate>
       
       <guid>https://guillem-gelabert.github.io/posts/x-content-type-options/</guid>
-      <description>This entry is part of the Security Headers series.
- With Content-Security-Policy you can avoid foreign scripts from being executed, but you can still inject malicious code as plaintext and let the browser figure out that it should be handled like code, defeating the whole purpose of CSP.</description>
+      <description>With Content-Security-Policy you can avoid foreign scripts from being executed, but you can still inject malicious code as plaintext and let the browser figure out that it should be handled like code, defeating the whole purpose of CSP.</description>
     </item>
     
     <item>
@@ -66,8 +71,7 @@
       <pubDate>Sat, 22 Aug 2020 08:14:15 +0200</pubDate>
       
       <guid>https://guillem-gelabert.github.io/posts/strict-transport-security/</guid>
-      <description>This entry is part of the Security Headers series.
- How many times did we, in the early days of internet, type http://www? Thanks to the browser&amp;rsquo;s integrated search and autocomplete this isn&amp;rsquo;t the case anymore, most of us just write my-bank.</description>
+      <description>How many times did we, in the early days of internet, type http://www? Thanks to the browser&amp;rsquo;s integrated search and autocomplete this isn&amp;rsquo;t the case anymore, most of us just write my-bank.</description>
     </item>
     
     <item>
@@ -76,8 +80,7 @@
       <pubDate>Fri, 21 Aug 2020 16:29:46 +0200</pubDate>
       
       <guid>https://guillem-gelabert.github.io/posts/content-security-policy/</guid>
-      <description>This entry is part of the Security Headers series.
- Content-Security-Policy works like a guest list for resources, or more like a bouncer with highly specific acceptance criteria. It allows for very granular control on which origins should be allowed and for which cases: specifically for iframes, forms tags, images sources, fonts, XHR or WebSockets connections and plenty more (there are 14 directives).</description>
+      <description>Content-Security-Policy works like a guest list for resources, or more like a bouncer with highly specific acceptance criteria. It allows for very granular control on which origins should be allowed and for which cases: specifically for iframes, forms tags, images sources, fonts, XHR or WebSockets connections and plenty more (there are 14 directives).</description>
     </item>
     
     <item>
@@ -86,8 +89,7 @@
       <pubDate>Thu, 20 Aug 2020 21:37:47 +0200</pubDate>
       
       <guid>https://guillem-gelabert.github.io/posts/x-xss-protection/</guid>
-      <description>This entry is part of the Security Headers series.
- In 2010 Chrome shipped a new feature, XSS Auditor, that would prevent unsafe parts of the website to be rendered.</description>
+      <description>In 2010 Chrome shipped a new feature, XSS Auditor, that would prevent unsafe parts of the website to be rendered. Together with XSS Auditor a new HTTP Header was introduced, with which its behaviour could be controlled.</description>
     </item>
     
     <item>

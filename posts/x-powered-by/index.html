@@ -16,8 +16,7 @@
     <script type="text/javascript" src="https://guillem-gelabert.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="X-Powered-By: the price of vanity (22 bytes)"/>
-<meta name="twitter:description" content="This entry is part of the Security Headers series.
- Some web frameworks, most notably Express.js, automatically add the X-Powered-By header. The goal is probably marketing —although we could call it recognition to the team that developed an a free and open source solution."/>
+<meta name="twitter:description" content="Some web frameworks, most notably Express.js, automatically add the X-Powered-By header. The goal is probably marketing —although we could call it recognition to the team that developed an a free and open source solution."/>
 
 </head><body><div class="sidebar">
     <div class="logo-title">
@@ -96,14 +95,12 @@
         
         </div>
 
-    <blockquote>
-<p>This entry is part of the <a href="/categories/security-headers/">Security Headers</a> series.</p>
-</blockquote>
-<p>Some web frameworks, most notably Express.js, automatically add the X-Powered-By header. The goal is probably marketing —although we could call it recognition to the team that developed an a free and open source solution. If the framework provides a built-in way to disable it you should do it, otherwise you can overwrite it manually.</p>
+    <p>Some web frameworks, most notably Express.js, automatically add the X-Powered-By header. The goal is probably marketing —although we could call it recognition to the team that developed an a free and open source solution. If the framework provides a built-in way to disable it you should do it, otherwise you can overwrite it manually.</p>
 <p>There are two —very banal— problems with it:</p>
 <p>One, it gives technical information to an attacker, which could be used to try known exploits on that technology against your server. This is poses a <a href="https://github.com/expressjs/express/pull/2813#issuecomment-159270428">very mild risk</a> as there are other ways to find that out and an automated attack could try exploits for different backend technologies.</p>
 <p>And two —and most important—, it is a useless header. We strive to make responses small: compression, minification, bundling, code splitting&hellip; Do we want to add even one useless bit to the metadata that comes with it?</p>
 <p>That said, one could argue that public recognition of the creators of your framework of choice is worth the 22 bytes. Fair enough.</p>
+<h5 id="this-entry-is-part-of-the-security-headerscategoriessecurity-headers-series">This entry is part of the <a href="/categories/security-headers/">Security Headers</a> series.</h5>
 
     </div>
     <div class="post-footer">

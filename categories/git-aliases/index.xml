@@ -17,7 +17,7 @@
       <pubDate>Sun, 30 Aug 2020 09:32:21 +0200</pubDate>
       
       <guid>https://guillem-gelabert.github.io/posts/you-need-git-aliases/</guid>
-      <description>This entry is part of the Useful Git Aliases series. Optimally we would always work in a purely linear way, after carefully planning all the code changes required to implement a certain feature.</description>
+      <description>Optimally we would always work in a purely linear way, after carefully planning all the code changes required to implement a certain feature. This works best if we are doing very small changes, modifying only a couple of characters or lines, if we are well acquainted with the codebase and the stack being used, or if we&amp;rsquo;re undertaking a trivial task that we can do almost mechanically.</description>
     </item>
     
   </channel>
