@@ -6,10 +6,19 @@
     <description>Recent content in Git Aliases on Fullstack Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Aug 2020 09:32:21 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2020 09:34:06 +0200</lastBuildDate>
     
 	<atom:link href="https://guillem-gelabert.github.io/categories/git-aliases/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git Undo: against instant regret</title>
+      <link>https://guillem-gelabert.github.io/posts/git-undo/</link>
+      <pubDate>Tue, 01 Sep 2020 09:34:06 +0200</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/git-undo/</guid>
+      <description>Say you&amp;rsquo;ve amended once to add a forgotten file, once to change the message, another one to remove a console.log, and you realise you are tired and you need to focus a little bit better.</description>
+    </item>
     
     <item>
       <title>You need these git aliases</title>

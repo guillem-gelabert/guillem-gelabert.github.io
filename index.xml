@@ -6,17 +6,26 @@
     <description>Recent content on Fullstack Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2020 10:00:51 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2020 09:34:06 +0200</lastBuildDate>
     
 	<atom:link href="https://guillem-gelabert.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Git Undo: against instant regret</title>
+      <link>https://guillem-gelabert.github.io/posts/git-undo/</link>
+      <pubDate>Tue, 01 Sep 2020 09:34:06 +0200</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/git-undo/</guid>
+      <description>Say you&amp;rsquo;ve amended once to add a forgotten file, once to change the message, another one to remove a console.log, and you realise you are tired and you need to focus a little bit better.</description>
+    </item>
+    
+    <item>
       <title>Amend: Edit a commit message</title>
-      <link>https://guillem-gelabert.github.io/posts/amend/</link>
+      <link>https://guillem-gelabert.github.io/posts/git-amend/</link>
       <pubDate>Mon, 31 Aug 2020 10:00:51 +0200</pubDate>
       
-      <guid>https://guillem-gelabert.github.io/posts/amend/</guid>
+      <guid>https://guillem-gelabert.github.io/posts/git-amend/</guid>
       <description>Sometimes I&amp;rsquo;ll come up with a better description of what I did in my last commit right after I&amp;rsquo;ve committed it. Or maybe I forgot to appropriately prefix it or to append the branch name at the en of it.</description>
     </item>
     

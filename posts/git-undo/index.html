@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Guillem Gelabert Sunyer | Categories </title>
+    <title> Guillem Gelabert Sunyer | Git Undo: against instant regret </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="Fullstack Developer">
     
@@ -10,14 +10,13 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://guillem-gelabert.github.ioapple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://guillem-gelabert.github.iofavicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://guillem-gelabert.github.iofavicon-16x16.png">
-    <link rel="canonical" href="https://guillem-gelabert.github.io/categories/">
-    <link rel="alternate" type="application/rss+xml" href="https://guillem-gelabert.github.io/categories/index.xml" title="Fullstack Developer" />
+    <link rel="canonical" href="https://guillem-gelabert.github.io/posts/git-undo/">
     
     
     <script type="text/javascript" src="https://guillem-gelabert.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="Fullstack Developer"/>
+<meta name="twitter:title" content="Git Undo: against instant regret"/>
+<meta name="twitter:description" content="Say you&rsquo;ve amended once to add a forgotten file, once to change the message, another one to remove a console.log, and you realise you are tired and you need to focus a little bit better."/>
 
 </head><body><div class="sidebar">
     <div class="logo-title">
@@ -87,30 +86,34 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-<div class="archive">
-   
-    <ul class="list-with-title">
-           
-      <div class="listing-title">2020</div>
-      
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/categories/git-aliases/" title="Git Aliases">Git Aliases</a>
-              <div class="post-time"><span class="date">Sep 1</span></div>
-            </div>
-          </div>
-    </ul>
+<div class="post">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Git Undo: against instant regret
+        </h3>
+        
+        </div>
+
+    <p>Say you&rsquo;ve <a href="/posts/git-amend">amended</a> once to add a forgotten file, once to change the message, another one to remove a console.log, and you realise you are tired and you need to focus a little bit better. In the case you want to profoundly change a commit or maybe you think the last commit was not needed at all, you can undo your last commit with git <code>reset --soft HEAD~1</code>.</p>
+<p>The committed changes won&rsquo;t be lost, they go directly to the staging area.</p>
+<p>I have this saved as
+<code>alias gundo = reset --soft HEAD~1</code></p>
+<h5 id="this-entry-is-part-of-the-useful-git-aliasescategoriesgit-aliases-series">This entry is part of the <a href="/categories/git-aliases/">Useful Git Aliases</a> series.</h5>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/git-aliases/">Git Aliases</a></span>
+
+        
+      </div>
+    </div>
+
     
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/categories/security-headers/" title="Security Headers">Security Headers</a>
-              <div class="post-time"><span class="date">Aug 28</span></div>
-            </div>
-          </div>
-    </ul>
-    
-    
-  </div>
+</div>
+
 
                 </div>
             </div>

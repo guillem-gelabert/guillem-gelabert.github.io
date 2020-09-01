@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Guillem Gelabert Sunyer | Categories </title>
+    <title> Guillem Gelabert Sunyer | Amend: Edit a commit message </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="Fullstack Developer">
     
@@ -10,14 +10,13 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://guillem-gelabert.github.ioapple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://guillem-gelabert.github.iofavicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://guillem-gelabert.github.iofavicon-16x16.png">
-    <link rel="canonical" href="https://guillem-gelabert.github.io/categories/">
-    <link rel="alternate" type="application/rss+xml" href="https://guillem-gelabert.github.io/categories/index.xml" title="Fullstack Developer" />
+    <link rel="canonical" href="https://guillem-gelabert.github.io/posts/git-amend/">
     
     
     <script type="text/javascript" src="https://guillem-gelabert.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="Fullstack Developer"/>
+<meta name="twitter:title" content="Amend: Edit a commit message"/>
+<meta name="twitter:description" content="Sometimes I&rsquo;ll come up with a better description of what I did in my last commit right after I&rsquo;ve committed it. Or maybe I forgot to appropriately prefix it or to append the branch name at the en of it."/>
 
 </head><body><div class="sidebar">
     <div class="logo-title">
@@ -87,30 +86,31 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-<div class="archive">
-   
-    <ul class="list-with-title">
-           
-      <div class="listing-title">2020</div>
-      
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/categories/git-aliases/" title="Git Aliases">Git Aliases</a>
-              <div class="post-time"><span class="date">Sep 1</span></div>
-            </div>
-          </div>
-    </ul>
+<div class="post">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Amend: Edit a commit message
+        </h3>
+        
+        </div>
+
+    <p>Sometimes I&rsquo;ll come up with a better description of what I did in my last commit right after I&rsquo;ve committed it. Or maybe I forgot to appropriately prefix it or to append the branch name at the en of it. You can easily change the message of of an un published commit my doing <code>git commit --amend --message &quot;new commit message&quot;</code>. If you already pushed your branch (which happens to me all the time) you can then just <code>git push --force-with-lease</code> to forcyfully update your remote but making sure nobody pushed in the same branch.</p>
+<p>Use this aliases (already included in the <a href="https://github.com/ohmyzsh/ohmyzsh">Oh My ZSH</a> git plugin)
+<code>alias gc! = git commit --amend --message</code>
+<code>alias gpf = git push --force-with-lease</code></p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+      </div>
+    </div>
+
     
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/categories/security-headers/" title="Security Headers">Security Headers</a>
-              <div class="post-time"><span class="date">Aug 28</span></div>
-            </div>
-          </div>
-    </ul>
-    
-    
-  </div>
+</div>
+
 
                 </div>
             </div>
