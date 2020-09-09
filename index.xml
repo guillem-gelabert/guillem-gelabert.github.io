@@ -6,10 +6,19 @@
     <description>Recent content on Fullstack Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2020 09:34:06 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2020 08:31:35 +0200</lastBuildDate>
     
 	<atom:link href="https://guillem-gelabert.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git Rebase Interactive: Change the past</title>
+      <link>https://guillem-gelabert.github.io/posts/git-rebase-interactive/</link>
+      <pubDate>Sun, 06 Sep 2020 08:31:35 +0200</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/git-rebase-interactive/</guid>
+      <description>Rebase is one of the most often used commands, as a way to update your tree with all the changes that happened in master since you branched. But when used with its --interactive (-i) flag it turns into the most powerful history changing git command.</description>
+    </item>
     
     <item>
       <title>Git Undo: against instant regret</title>

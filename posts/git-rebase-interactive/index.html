@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Guillem Gelabert Sunyer | Git Aliases </title>
+    <title> Guillem Gelabert Sunyer | Git Rebase Interactive: Change the past </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="Fullstack Developer">
     
@@ -10,14 +10,13 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://guillem-gelabert.github.ioapple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://guillem-gelabert.github.iofavicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://guillem-gelabert.github.iofavicon-16x16.png">
-    <link rel="canonical" href="https://guillem-gelabert.github.io/categories/git-aliases/">
-    <link rel="alternate" type="application/rss+xml" href="https://guillem-gelabert.github.io/categories/git-aliases/index.xml" title="Fullstack Developer" />
+    <link rel="canonical" href="https://guillem-gelabert.github.io/posts/git-rebase-interactive/">
     
     
     <script type="text/javascript" src="https://guillem-gelabert.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Git Aliases"/>
-<meta name="twitter:description" content="Fullstack Developer"/>
+<meta name="twitter:title" content="Git Rebase Interactive: Change the past"/>
+<meta name="twitter:description" content="Rebase is one of the most often used commands, as a way to update your tree with all the changes that happened in master since you branched. But when used with its --interactive (-i) flag it turns into the most powerful history changing git command."/>
 
 </head><body><div class="sidebar">
     <div class="logo-title">
@@ -87,38 +86,38 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-<div class="archive">
-   
-    <ul class="list-with-title">
-           
-      <div class="listing-title">2020</div>
-      
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/git-rebase-interactive/" title="Git Rebase Interactive: Change the past">Git Rebase Interactive: Change the past</a>
-              <div class="post-time"><span class="date">Sep 6</span></div>
-            </div>
-          </div>
-    </ul>
+<div class="post">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Git Rebase Interactive: Change the past
+        </h3>
+        
+        </div>
+
+    <p>Rebase is one of the most often used commands, as a way to update your tree with all the changes that happened in master since you branched. But when used with its <code>--interactive</code> (<code>-i</code>) flag it turns into the most powerful history changing git command. If you want to simplify your commit structure before submitting your code, if you are maintaining a public repository or if you messed up with your commits <code>git rebase --interactive</code> is a great option. When you run it with <code>HEAD~5</code> it will show you your last 5 commits prepended by the word <code>pick</code>.</p>
+<pre><code>pick r extract strings to constants file
+pick F add early exit for invalid neighbours
+pick a fix linting issues
+pick e add eslint/no-yoda rule
+</code></pre><p>You can then replace this prefix with different options, for the complete list check the docs. Here we&rsquo;ll center on <code>reword</code> and <code>edit</code>. <em>Reword</em> is the equivalent to <code>commit --amend --message &quot;new message&quot;</code>, but allows you to batch edit several commit messages. <em>Edit</em> is the most powerful option and allows you to amend past commits. After you accept the prompt it will open your editor in the state of the <code>edit</code> prefixed commit. Then you can modify your code, stage your changes and <code>commit --amend</code> them. Next, you <code>git rebase --continue</code> and your history will now contain your newly committed changes, with the message you chose.</p>
+<p>Use this aliases (already included in the <a href="https://github.com/ohmyzsh/ohmyzsh">Oh My ZSH</a> git plugin)
+<code>alias grbi = git rebase --interactive</code></p>
+<h5 id="this-entry-is-part-of-the-useful-git-aliasescategoriesgit-aliases-series">This entry is part of the <a href="/categories/git-aliases/">Useful Git Aliases</a> series.</h5>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/git-aliases/">Git Aliases</a></span>
+
+        
+      </div>
+    </div>
+
     
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/git-undo/" title="Git Undo: against instant regret">Git Undo: against instant regret</a>
-              <div class="post-time"><span class="date">Sep 1</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/you-need-git-aliases/" title="You need these git aliases">You need these git aliases</a>
-              <div class="post-time"><span class="date">Aug 30</span></div>
-            </div>
-          </div>
-    </ul>
-    
-    
-  </div>
+</div>
+
 
                 </div>
             </div>
