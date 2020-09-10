@@ -4,12 +4,27 @@
   
   <url>
     <loc>https://guillem-gelabert.github.io/categories/</loc>
-    <lastmod>2020-09-06T08:31:35+02:00</lastmod>
+    <lastmod>2020-09-08T09:01:53+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://guillem-gelabert.github.io/</loc>
-    <lastmod>2020-09-06T08:31:35+02:00</lastmod>
+    <lastmod>2020-09-08T09:01:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://guillem-gelabert.github.io/posts/</loc>
+    <lastmod>2020-09-08T09:01:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://guillem-gelabert.github.io/categories/security-headers/</loc>
+    <lastmod>2020-09-08T09:01:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://guillem-gelabert.github.io/posts/x-permitted-cross-domain-policies/</loc>
+    <lastmod>2020-09-08T09:01:53+02:00</lastmod>
   </url>
   
   <url>
@@ -19,11 +34,6 @@
   
   <url>
     <loc>https://guillem-gelabert.github.io/posts/git-rebase-interactive/</loc>
-    <lastmod>2020-09-06T08:31:35+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://guillem-gelabert.github.io/posts/</loc>
     <lastmod>2020-09-06T08:31:35+02:00</lastmod>
   </url>
   
@@ -40,11 +50,6 @@
   <url>
     <loc>https://guillem-gelabert.github.io/posts/you-need-git-aliases/</loc>
     <lastmod>2020-08-30T09:32:21+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://guillem-gelabert.github.io/categories/security-headers/</loc>
-    <lastmod>2020-08-28T09:47:03+02:00</lastmod>
   </url>
   
   <url>

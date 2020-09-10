@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Guillem Gelabert Sunyer | Security Headers </title>
+    <title> Guillem Gelabert Sunyer | X-Permitted-Cross-Domain-Policies: Secure your PDFs (and Flash, if flash is still a thing when you read this post) </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="Fullstack Developer">
     
@@ -10,14 +10,13 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://guillem-gelabert.github.ioapple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://guillem-gelabert.github.iofavicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://guillem-gelabert.github.iofavicon-16x16.png">
-    <link rel="canonical" href="https://guillem-gelabert.github.io/categories/security-headers/">
-    <link rel="alternate" type="application/rss+xml" href="https://guillem-gelabert.github.io/categories/security-headers/index.xml" title="Fullstack Developer" />
+    <link rel="canonical" href="https://guillem-gelabert.github.io/posts/x-permitted-cross-domain-policies/">
     
     
     <script type="text/javascript" src="https://guillem-gelabert.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Security Headers"/>
-<meta name="twitter:description" content="Fullstack Developer"/>
+<meta name="twitter:title" content="X-Permitted-Cross-Domain-Policies: Secure your PDFs (and Flash, if flash is still a thing when you read this post)"/>
+<meta name="twitter:description" content="Adobe Flash and Reader documents can embed external content, but only if the source has explicitly stated that this can be done and in which cases, by means of a crossdomain."/>
 
 </head><body><div class="sidebar">
     <div class="logo-title">
@@ -87,78 +86,39 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-<div class="archive">
-   
-    <ul class="list-with-title">
-           
-      <div class="listing-title">2020</div>
-      
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-permitted-cross-domain-policies/" title="X-Permitted-Cross-Domain-Policies: Secure your PDFs (and Flash, if flash is still a thing when you read this post)">X-Permitted-Cross-Domain-Policies: Secure your PDFs (and Flash, if flash is still a thing when you read this post)</a>
-              <div class="post-time"><span class="date">Sep 8</span></div>
-            </div>
-          </div>
-    </ul>
+<div class="post">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>X-Permitted-Cross-Domain-Policies: Secure your PDFs (and Flash, if flash is still a thing when you read this post)
+        </h3>
+        
+        </div>
+
+    <p>Adobe Flash and Reader documents can embed external content, but only if the source has explicitly stated that this can be done and in which cases, by means of a <code>crossdomain.xml</code> policy file. <code>X-Permitted-Cross-Domain-Policies</code> adds a second layer of security by limiting where clients should look for a file, avoiding malicious or unintentional uploads.</p>
+<p>It offers the following directives:</p>
+<ul>
+<li><code>none</code>: No policy files are allowed.</li>
+<li><code>master-only</code>: Only check the root directory of the website for policy files.</li>
+<li><code>by-content-type</code>: Only accept files with type <code>text/x-cross-domain-policy</code>.</li>
+<li><code>by-ftp-filename</code>: Only accept cross-domain requests through FTP with files named <code>crossdomain.xml</code>.</li>
+<li><code>all</code>: Allow any <code>crossdomain.xml</code> files.</li>
+</ul>
+<h5 id="this-entry-is-part-of-the-security-headerscategoriessecurity-headers-series">This entry is part of the <a href="/categories/security-headers/">Security Headers</a> series.</h5>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/security-headers/">Security Headers</a></span>
+
+        
+      </div>
+    </div>
+
     
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-powered-by/" title="X-Powered-By: the price of vanity (22 bytes)">X-Powered-By: the price of vanity (22 bytes)</a>
-              <div class="post-time"><span class="date">Aug 28</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-frame-options/" title="X-Frame-Options: iframes are so 2005">X-Frame-Options: iframes are so 2005</a>
-              <div class="post-time"><span class="date">Aug 25</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/referrer-policy/" title="Referrer-Policy: Whatever I&#39;ve been doing is non of your business">Referrer-Policy: Whatever I&#39;ve been doing is non of your business</a>
-              <div class="post-time"><span class="date">Aug 24</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-content-type-options/" title="X-Content-Type-Options: Don&#39;t sniff the mimetype">X-Content-Type-Options: Don&#39;t sniff the mimetype</a>
-              <div class="post-time"><span class="date">Aug 23</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/strict-transport-security/" title="Strict-Transport-Security: HTTPS and HTTPS only">Strict-Transport-Security: HTTPS and HTTPS only</a>
-              <div class="post-time"><span class="date">Aug 22</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/content-security-policy/" title="Content-Security-Policy: you&#39;re not on the guest list">Content-Security-Policy: you&#39;re not on the guest list</a>
-              <div class="post-time"><span class="date">Aug 21</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://guillem-gelabert.github.io/posts/x-xss-protection/" title="X-XSS-Protection: a security header gone wrong">X-XSS-Protection: a security header gone wrong</a>
-              <div class="post-time"><span class="date">Aug 20</span></div>
-            </div>
-          </div>
-    </ul>
-    
-    
-  </div>
+</div>
+
 
                 </div>
             </div>
