@@ -6,10 +6,20 @@
     <description>Recent content on Fullstack Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2020 09:01:53 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 03 Dec 2020 17:55:39 +0100</lastBuildDate>
     
 	<atom:link href="https://guillem-gelabert.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fix typing issues locally with `paths`</title>
+      <link>https://guillem-gelabert.github.io/posts/ts-fix-typing-issues-locally-with-paths/</link>
+      <pubDate>Thu, 03 Dec 2020 17:55:39 +0100</pubDate>
+      
+      <guid>https://guillem-gelabert.github.io/posts/ts-fix-typing-issues-locally-with-paths/</guid>
+      <description>The Definitely Typed community does an awesome job typing packages that ship without types, but as most community maintained efforts it is a work in progress.
+If you find an error in a @types declaration you can expand it by including a declaration in the paths entry of the compilerOptions in your tsconfig file.</description>
+    </item>
     
     <item>
       <title>X-Permitted-Cross-Domain-Policies: Secure your PDFs (and Flash, if flash is still a thing when you read this post)</title>

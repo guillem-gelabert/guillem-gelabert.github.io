@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://guillem-gelabert.github.io/categories/</loc>
-    <lastmod>2020-09-08T09:01:53+02:00</lastmod>
+    <loc>https://guillem-gelabert.github.io/posts/ts-fix-typing-issues-locally-with-paths/</loc>
+    <lastmod>2020-12-03T17:55:39+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://guillem-gelabert.github.io/</loc>
-    <lastmod>2020-09-08T09:01:53+02:00</lastmod>
+    <lastmod>2020-12-03T17:55:39+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://guillem-gelabert.github.io/posts/</loc>
+    <lastmod>2020-12-03T17:55:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://guillem-gelabert.github.io/categories/</loc>
     <lastmod>2020-09-08T09:01:53+02:00</lastmod>
   </url>
   

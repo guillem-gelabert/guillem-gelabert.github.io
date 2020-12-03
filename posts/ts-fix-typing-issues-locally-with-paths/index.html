@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Guillem Gelabert Sunyer | Fullstack Developer </title>
+    <title> Guillem Gelabert Sunyer | Fix typing issues locally with `paths` </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="Fullstack Developer">
     
@@ -10,14 +10,14 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://guillem-gelabert.github.ioapple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://guillem-gelabert.github.iofavicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://guillem-gelabert.github.iofavicon-16x16.png">
-    <link rel="canonical" href="https://guillem-gelabert.github.io/">
-    <link rel="alternate" type="application/rss+xml" href="https://guillem-gelabert.github.io/index.xml" title="Fullstack Developer" />
+    <link rel="canonical" href="https://guillem-gelabert.github.io/posts/ts-fix-typing-issues-locally-with-paths/">
     
     
     <script type="text/javascript" src="https://guillem-gelabert.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Fullstack Developer"/>
-<meta name="twitter:description" content="Fullstack Developer"/>
+<meta name="twitter:title" content="Fix typing issues locally with `paths`"/>
+<meta name="twitter:description" content="The Definitely Typed community does an awesome job typing packages that ship without types, but as most community maintained efforts it is a work in progress.
+If you find an error in a @types declaration you can expand it by including a declaration in the paths entry of the compilerOptions in your tsconfig file."/>
 
 </head><body><div class="sidebar">
     <div class="logo-title">
@@ -68,7 +68,7 @@
         
         
         
-        <li><a class="current" href="/" title="">Home</a></li>
+        <li><a  href="/" title="">Home</a></li>
         
         
         <li><a  href="/categories" title="">Series</a></li>
@@ -87,84 +87,51 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-  
-  
-  <div class="post">
-    <div class="post-title">
-      <h3><a href="/posts/strict-transport-security/">Strict-Transport-Security: HTTPS and HTTPS only</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>How many times did we, in the early days of internet, type http://www? Thanks to the browser&rsquo;s integrated search and autocomplete this isn&rsquo;t the case anymore, most of us just write my-bank.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Sat, Aug 22, 2020</span>
-                 
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="post">
-    <div class="post-title">
-      <h3><a href="/posts/content-security-policy/">Content-Security-Policy: you&#39;re not on the guest list</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>Content-Security-Policy works like a guest list for resources, or more like a bouncer with highly specific acceptance criteria. It allows for very granular control on which origins should be allowed and for which cases: specifically for iframes, forms tags, images sources, fonts, XHR or WebSockets connections and plenty more (there are 14 directives).</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Fri, Aug 21, 2020</span>
-                 
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="post">
-    <div class="post-title">
-      <h3><a href="/posts/x-xss-protection/">X-XSS-Protection: a security header gone wrong</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>In 2010 Chrome shipped a new feature, XSS Auditor, that would prevent unsafe parts of the website to be rendered. Together with XSS Auditor a new HTTP Header was introduced, with which its behaviour could be controlled.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Thu, Aug 20, 2020</span>
-                 
-        </div>
-      </div>
-    </div>
-  </div>
-  
-<div class="pagination">
-  
-<ul class="pagination">
-  <li class="page-item">
-    <a href="/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a href="/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/">1</a>
-  </li>
-  <li class="page-item active">
-    <a class="page-link" href="/page/2/">2</a>
-  </li>
-  <li class="page-item disabled">
-    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a href="/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-  </li>
-</ul>
+<div class="post">
+    <div class="post-content">
 
+      <div class="post-title">
+        <h3>Fix typing issues locally with `paths`
+        </h3>
+        
+        </div>
 
+    <p>The Definitely Typed community does an awesome job typing packages that ship without types, but as most community maintained efforts it is a work in progress.</p>
+<p>If you find an error in a @types declaration you can expand it by including a declaration in the <code>paths</code> entry of the <code>compilerOptions</code> in your tsconfig file. If you use <code>paths</code> you must also specify a <code>baseUrl</code>.</p>
+<p>For example, in <code>@types/mongoose</code> the <code>SchemeOptions</code> interface is incomplete: the <code>optimisticConcurrency</code> flag is missing and typescript throws an error. Let&rsquo;s fix it.</p>
+<p>We&rsquo;ll a declaration file <code>index.d.ts</code> with the addition that we wish to do. We&rsquo;ll do it in the following path: <code>&lt;project-root&gt;/typings/mongoose/index.d.ts</code>.</p>
+<pre><code>declare module &quot;mongoose&quot; {
+  export interface SchemaOptions {
+    optimisticConcurrency?: boolean;
+  }
+}
+</code></pre><p>Then we&rsquo;ll update the tsconfig, to include the new path.</p>
+<pre><code>// tsconfig.json
+&quot;compilerOptions: {
+  //...
+  &quot;baseUrl&quot;: &quot;.&quot;,
+  &quot;paths&quot;: {
+    &quot;*&quot;: [
+      &quot;typings/*&quot;
+    ]
+  }
+}
+</code></pre><p>The <code>baseUrl</code> is relative to the tsconig.</p>
+<p>With the wildcard <code>*</code> you are telling the compiler that for every module it should check the specified paths (independently of weder they are type declarations or executable code).</p>
+<p>We could have used a different path, but with this structure we can add typings for any library.</p>
+<p>Of course, this is only a short term fix and we should open a pull request to <a href="https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.md">DefinitelyTyped</a>.</p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+      </div>
+    </div>
+
+    
 </div>
+
 
                 </div>
             </div>
